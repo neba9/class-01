@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>welcome to Family Decor</title>
+      <style>
+        body {
+            background-color: antiquewhite;
+        }
+        h1 {color:blue;}
+        h4 {color: brown;}
+        p {color: crimson;}
+        ul{color: darkgreen;}
+        footer {color: red;}
+  
+  
+       </style>
+
+  </head>
+    
+  <body>
+        <h1>Family Decor and DJ</h1>
+        <p>we are hear to make a live for your event,Creativity is our beauty </p>
+        
+        <h4>Our services</h4>
+        <ul>
+            <li>Event decoration</li>
+            <li>Wedding decoration</li>
+            <li>Rental event equpments</li>
+            <li>DJ Service</li>
+        </ul>
+        
+        
+        <footer>copyright &copy;2020 - Family-Decor</footer>
+    </body>
+    <script>
+        var name = prompt('what is your name?');
+        console.log('Hello! welcome to my page,' + name);
+
+         var eventtype = prompt('what type of your event ?');
+        console.log('Great! we have beauty design,' + eventtype);
+
+        var gustes = prompt('how many gustes do you have?');
+        console.log('Great! we have beauty  hall,' + gustes);
+
+        var time = prompt('what time start your event ?');
+        console.log('cool! we are more than ready to help you at any time,' + time);
+
+        var endtime = prompt('what time finshed your event ?');
+        console.log('Great! we hope enjoy your time until you done,' + endtime);
+
+
+       alert('hello! welcome to my page,' + name + 'Great! we have beauty design' + eventtype + 'Great! we have beauty  hall '
+        + gustes + 'cool! we are more than ready to help you at any time' + time +'Great! we hope enjoy your time until you done' + endtime );
+
+    </script>
+
+
+
+</html>
